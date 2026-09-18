@@ -154,14 +154,14 @@ const projects = [
         <h2 class="side-title"><Languages />زبان</h2>
         <div class="mt-4">
           <h3 class="font-extrabold">انگلیسی</h3>
-          <p class="mt-2 text-sm" dir="ltr">Reading: Good | Writing: Intermediate</p>
-          <p class="mt-2 text-sm" dir="ltr">Listening: Intermediate | Speaking: Intermediate</p>
+          <p class="mt-2 text-sm" dir="ltr">Reading: Advanced | Writing: Upper-Intermediate</p>
+          <p class="mt-2 text-sm" dir="ltr">Listening: Upper-Intermediate | Speaking: Upper-Intermediate</p>
         </div>
       </section>
     </aside>
     <section class="space-y-8 lg:order-1">
       <section>
-        <h2 class="section-title"><UsersRound />خلاصه حرفه‌ای</h2>
+        <h2 class="section-title"><UsersRound />درباره‌ی من</h2>
         <p class="mt-5 text-lg leading-9 md:text-xl">
           توسعه‌دهنده PHP/Laravel با چند سال تجربه در توسعه و نگهداری اپلیکیشن‌های وب.<br />دارای
           تجربه کار با MySQL، Redis، Docker، PHPUnit و سرویس‌های مبتنی بر Linux<br />و CI/CD.
