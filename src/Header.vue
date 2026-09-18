@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CalendarDays, Code2, GraduationCap, Mail, MapPin, Phone } from '@lucide/vue'
+import { CalendarDays, Code2, Mail, MapPin, Phone, ShieldCheck } from '@lucide/vue'
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import { CalendarDays, Code2, GraduationCap, Mail, MapPin, Phone } from '@lucide
       ><a class="contact" href="tel:+989109598609"><Phone :size="19" />۰۹۱۰ ۹۵۹ ۸۶۰۹</a
       ><span class="contact"><MapPin :size="19" />اردبیل</span
       ><span class="contact"><CalendarDays :size="19" />۱۳۷۶/۰۴/۰۱</span
-      ><span class="contact"><GraduationCap :size="19" />پایان خدمت</span>
+      ><span class="contact"><ShieldCheck :size="19" />پایان خدمت</span>
     </address>
   </header>
 </template>
