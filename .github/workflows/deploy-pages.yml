@@ -37,7 +37,9 @@ jobs:
         run: npm run type-check
 
       - name: Build site
-        run: npm run build-only -- --base=/${{ github.event.repository.name }}/
+        run: npm run build-only
+        env:
+          NODE_ENV: production
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
