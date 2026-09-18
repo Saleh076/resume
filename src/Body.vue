@@ -65,7 +65,7 @@ const projects = [
 </script>
 
 <template>
-  <div class="mt-9 grid gap-8 lg:grid-cols-[390px_minmax(0,1fr)] lg:gap-12" dir="rtl">
+  <div class="mt-9 grid gap-8 lg:grid-cols-[minmax(0,1fr)_390px] lg:gap-12" dir="rtl">
     <aside class="space-y-7 lg:order-2">
       <section class="rounded-xl bg-[#eef6f2] px-5 py-5">
         <h2 class="side-title"><Code2 />مهارت‌های فنی</h2>
