@@ -20,9 +20,9 @@ import { CalendarDays, Code2, GraduationCap, Mail, MapPin, Phone } from '@lucide
       class="grid justify-center gap-3 not-italic text-base leading-none lg:justify-start lg:border-l-2 lg:border-[#08754a] lg:pl-10"
     >
       <a class="contact" href="mailto:salehdvp@gmail.com"><Mail :size="19" />salehdvp@gmail.com</a
-      ><a class="contact" href="tel:+989109598609"><Phone :size="19" />0910 959 8609</a
+      ><a class="contact" href="tel:+989109598609"><Phone :size="19" />۰۹۱۰ ۹۵۹ ۸۶۰۹</a
       ><span class="contact"><MapPin :size="19" />اردبیل</span
-      ><span class="contact"><CalendarDays :size="19" />01/04/1376</span
+      ><span class="contact"><CalendarDays :size="19" />۱۳۷۶/۰۴/۰۱</span
       ><span class="contact"><GraduationCap :size="19" />پایان خدمت</span>
     </address>
   </header>

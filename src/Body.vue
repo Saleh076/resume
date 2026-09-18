@@ -148,7 +148,7 @@ const projects = [
         <h2 class="side-title"><UsersRound />فعالیت‌های علمی</h2>
         <ul class="mt-4 space-y-2 text-sm">
           <li>• عضویت در تیم المپیاد دانشگاه (زمستان ۱۳۹۸)</li>
-          <li>• عضویت در تیم <bdi dir="ltr">ACM Tehran 2018</bdi> دانشگاه</li>
+          <li>• عضویت در تیم <bdi dir="ltr">ACM Tehran ۲۰۱۸</bdi> دانشگاه</li>
         </ul>
       </section>
       <section>
