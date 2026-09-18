@@ -170,28 +170,12 @@ const projects = [
           </p>
         </article>
       </section>
-      <section>
+      <section v-if="false">
         <h2 class="section-title"><GraduationCap />پروژه‌های دانشگاهی و تمرینی (خلاصه)</h2>
         <p class="mt-4 font-medium" dir="ltr">C#, Java, Python, C++, C#, Laravel</p>
         <p class="mt-3 text-sm">
           چند نمونه از پروژه‌ها: دفترچه تلفن (C)، مدیریت کافی‌نت (Java)، رسم نمودار (Python) و ...
         </p>
-      </section>
-      <section class="grid gap-7 md:grid-cols-2">
-        <div>
-          <h2 class="section-title"><Star />دستاوردها و نکات تکمیلی</h2>
-          <ul class="mt-4 text-sm leading-7">
-            <li>علاقه‌مند به یادگیری تکنولوژی‌های جدید</li>
-            <li>تجربه کار با سیستم‌های لینوکس و سرویس‌های ابری</li>
-            <li>تلاش برای نوشتن کد تمیز و قابل نگهداری</li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="section-title text-base"><Languages />دوره‌های آموزشی و ابزارهای مورد علاقه</h2>
-          <p class="mt-4 text-sm leading-7" dir="ltr">
-            Laravel, Vue.js, Docker, Kubernetes<br />Clean Code & SOLID<br />System Design
-          </p>
-        </div>
       </section>
     </section>
   </div>
