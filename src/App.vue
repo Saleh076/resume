@@ -14,7 +14,24 @@ import Home from './Home.vue'
 @import 'tailwindcss';
 @font-face {
   font-family: 'Vazirmatn';
-  src: local('Vazirmatn'), local('Tahoma');
+  src: url('/fonts/Vazirmatn-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/Vazirmatn-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('/fonts/Vazirmatn-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 :root {
   font-family: Vazirmatn, Tahoma, Arial, sans-serif;
