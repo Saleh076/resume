@@ -13,7 +13,7 @@ import { CalendarDays, Code2, Mail, MapPin, Phone, ShieldCheck } from '@lucide/v
     <div class="text-center lg:text-left" dir="rtl">
       <h1 class="text-4xl font-black tracking-tight text-[#062b2a] md:text-6xl">صالح شکاری</h1>
       <p class="mt-2 text-xl font-bold tracking-wide text-[#07633e] md:text-2xl" dir="ltr">
-        PHP / Laravel Backend Developer
+        Senior full-Stack Developer
       </p>
     </div>
     <address
