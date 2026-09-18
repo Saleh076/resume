@@ -34,14 +34,15 @@ const experiences = [
     date: 'آبان ۱۴۰۰ – اکنون',
     points: [
       'توسعه full-stack روی چندین پروژه بین‌المللی (استرالیا، ارمنستان، کنیا) با Laravel/PHP در بک‌اند و Vue.js/React در فرانت‌اند',
-      'مدیریت فنی (Lead Backend Developer) پروژه Bee Charge با تیم دو نفره، از معماری تا دیپلوی نهایی',
-      'مالکیت کامل توسعه، دیپلوی و مدیریت سرور چند پروژه پروداکشن (از جمله Flitt و Bee Charge)',
+      'مدیریت فنی (Lead Backend Developer) پروژه Bee Charge با تیم سه نفره، از معماری تا دیپلوی نهایی',
+      'مالکیت کامل توسعه، دیپلوی و مدیریت سرور چند پروژه  (از جمله Flitt و Bee Charge)',
       'ارتقای یک اپلیکیشن پروداکشن از Laravel 8 به Laravel 13 بدون قطعی سرویس',
-      'راه‌اندازی AWS ECS Fargate برای مهاجرت بک‌اند یک اپلیکیشن موبایل به زیرساخت کانتینری',
+      'راه‌اندازی AWS ECS Fargate و مهاجرت بک‌اند یک اپلیکیشن موبایل به زیرساخت کانتینری',
       'یادگیری و استفاده عملی از React برای نگهداری فرانت‌اند یک پروژه پس از خروج توسعه‌دهنده فرانت',
       'پیاده‌سازی چندزبانه‌سازی (انگلیسی/ارمنی) و اتصال درگاه پرداخت Idram برای یک پلتفرم بین‌المللی',
-      'پیاده‌سازی APIهای REST، بهینه‌سازی Query های MySQL و استفاده از Redis برای caching',
-      'طراحی تست‌های PHPUnit و Dockerization سرویس‌ها با همکاری در CI/CD (GitLab)',
+      'پیاده‌سازی REST APIها، بهینه‌سازی Query های MySQL و استفاده از Redis برای caching',
+      ' تست‌ نویسی با PHPUnit', 
+      'Dockerization سرویس‌ها و استقرار به شیوه CI/CD (GitLab)',
     ],
   },
   {
@@ -63,7 +64,7 @@ const projects = [
     description:
       'مارکت‌پلیس خرید خودرو در استرالیا؛ کاربران را با نزدیک‌ترین نمایندگی‌ها و بروکرها برای دریافت پیشنهاد قیمت متصل می‌کند (بدون پرداخت آنلاین)',
     stack: ['Laravel', 'PHP', 'Blade', 'jQuery'],
-    role: 'عضو تیم توسعه (Junior) در بک‌اند و فرانت‌اند — اکنون در carexpert.com.au ادغام شده است',
+    role: 'عضو تیم توسعه (Junior) در بک‌اند و فرانت‌اند',
   },
   {
     name: 'leamba.ir',
@@ -99,7 +100,7 @@ const projects = [
   {
     name: 'flitt.it',
     description: 'پلتفرم حمل‌ونقل آنلاین وسایل حجیم منزل و باغ (اپلیکیشن موبایل)',
-    stack: ['Laravel 13', 'PHP', 'MySQL'],
+    stack: ['Laravel', 'PHP', 'MySQL'],
     role: 'مالکیت کامل بک‌اند و سرور؛ ارتقای پروژه از Laravel 8 به Laravel 13',
   },
 ]
@@ -164,7 +165,7 @@ const projects = [
         <h2 class="section-title"><UsersRound />درباره‌ی من</h2>
         <p class="mt-5 text-lg leading-9 md:text-xl">
           توسعه‌دهنده فول استک Laravel/Vue با چند سال تجربه در توسعه و نگهداری اپلیکیشن‌های وب و APIها.
-          <br />تجربه در دیپلوی و CI/CD و مدیریت و نگهداری سرورها.
+          <br />تجربه در استقرار اپلیکیشن‌ها و و مدیریت و نگهداری سرورها.
           <br /> گرایش به طراحی کد تمیز و معماری توسعه پذیر.
           <br /> علاقه مند به پیشرفت و یادگیری و کسب تجربه‌های جدید.
         </p>
@@ -207,8 +208,7 @@ const projects = [
           </div>
           <p class="mt-1 text-sm">{{ project.description }}</p>
           <p class="mt-1 text-sm">
-            نقش: توسعه و بهینه‌سازی backend و یکپارچه‌سازی سرویس‌ها
-            <span class="font-bold">|</span> تکنولوژی‌ها: Laravel, PHP, MySQL, Redis
+            نقش: {{ project.role }}
           </p>
         </article>
       </section>
