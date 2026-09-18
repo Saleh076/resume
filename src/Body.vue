@@ -10,28 +10,38 @@ import {
 } from '@lucide/vue'
 
 const skills = [
-  { title: 'Backend', items: ['PHP', 'Laravel', 'OOP', 'SOLID', 'Clean Code'] },
-  { title: 'Frontend', items: ['JavaScript', 'Vue.js', 'HTML', 'CSS', 'TailwindCSS', 'jQuery'] },
-  { title: 'Database', items: ['MySQL', 'MongoDB', 'Redis'] },
+  {
+    title: 'Backend',
+    items: ['PHP', 'Laravel', 'Livewire', 'Inertia.js', 'OOP', 'SOLID', 'Clean Code', 'Design Patterns'],
+  },
+  {
+    title: 'Frontend',
+    items: ['JavaScript', 'Vue.js', 'React', 'HTML', 'CSS', 'TailwindCSS', 'jQuery'],
+  },
+  { title: 'Database', items: ['MySQL', 'MongoDB', 'Redis', 'Neo4j', 'InfluxDB'] },
   {
     title: 'DevOps / Infrastructure',
-    items: ['Docker', 'Linux', 'Kubernetes', 'AWS', 'GitLab CI'],
+    items: ['Docker', 'Kubernetes', 'AWS (ECS Fargate)', 'Linux', 'Nginx', 'CI/CD', 'GitLab CI'],
   },
   { title: 'Messaging / Testing', items: ['RabbitMQ', 'PHPUnit'] },
   { title: 'Version Control', items: ['Git', 'GitHub', 'GitLab'] },
 ]
+
 const experiences = [
   {
     role: 'برنامه نویس فول استک',
     company: 'شرکت پیدایش زمان',
     date: 'آبان ۱۴۰۰ – اکنون',
     points: [
-      'توسعه و نگهداری سرویس‌های وب مبتنی بر Laravel و MySQL',
-      'پیاده‌سازی APIهای REST و توسعه قابلیت‌های جدید محصول',
-      'بهینه‌سازی Queryهای MySQL و کاهش زمان پاسخ بخش‌های پرترافیک',
-      'استفاده از Redis برای caching و بهبود performance',
-      'طراحی و پیاده‌سازی تست‌های PHPUnit',
-      'Dockerization سرویس‌ها و همکاری در CI/CD با GitLab',
+      'توسعه full-stack روی چندین پروژه بین‌المللی (استرالیا، ارمنستان، کنیا) با Laravel/PHP در بک‌اند و Vue.js/React در فرانت‌اند',
+      'مدیریت فنی (Lead Backend Developer) پروژه Bee Charge با تیم دو نفره، از معماری تا دیپلوی نهایی',
+      'مالکیت کامل توسعه، دیپلوی و مدیریت سرور چند پروژه پروداکشن (از جمله Flitt و Bee Charge)',
+      'ارتقای یک اپلیکیشن پروداکشن از Laravel 8 به Laravel 13 بدون قطعی سرویس',
+      'راه‌اندازی AWS ECS Fargate برای مهاجرت بک‌اند یک اپلیکیشن موبایل به زیرساخت کانتینری',
+      'یادگیری و استفاده عملی از React برای نگهداری فرانت‌اند یک پروژه پس از خروج توسعه‌دهنده فرانت',
+      'پیاده‌سازی چندزبانه‌سازی (انگلیسی/ارمنی) و اتصال درگاه پرداخت Idram برای یک پلتفرم بین‌المللی',
+      'پیاده‌سازی APIهای REST، بهینه‌سازی Query های MySQL و استفاده از Redis برای caching',
+      'طراحی تست‌های PHPUnit و Dockerization سرویس‌ها با همکاری در CI/CD (GitLab)',
     ],
   },
   {
@@ -39,27 +49,58 @@ const experiences = [
     company: 'گروه شرکت های طرفه‌نگار',
     date: 'اسفند ۱۳۹۷ – اردیبهشت ۱۳۹۸',
     points: [
-      'آشنایی و کار با فریم‌ورک‌های PHP و مفاهیم پایه توسعه وب',
-      'بهره‌گیری از ابزارهای کنترل نسخه و محیط‌های توسعه',
+      'یادگیری مبانی PHP، Laravel، HTML، CSS و جاوااسکریپت مقدماتی به عنوان پایه ورود به پروژه‌های واقعی',
+      'پیاده‌سازی یک سیستم authentication ساده (ثبت‌نام و ورود) با PHP خام و سپس بازنویسی آن با Laravel',
+      'یادگیری jQuery و Bootstrap در حین کار برای توسعه رابط‌های تعاملی',
+      'طراحی و پیاده‌سازی یک سیستم اتوماسیون فرضی به عنوان پروژه پایانی کارآموزی',
     ],
   },
 ]
+
 const projects = [
   {
     name: 'pricemycar.com.au',
-    description: 'پلتفرم مقایسه و قیمت‌گذاری خودرو در استرالیا',
-    stack: ['Laravel', 'PHP', 'MySQL'],
+    description:
+      'مارکت‌پلیس خرید خودرو در استرالیا؛ کاربران را با نزدیک‌ترین نمایندگی‌ها و بروکرها برای دریافت پیشنهاد قیمت متصل می‌کند (بدون پرداخت آنلاین)',
+    stack: ['Laravel', 'PHP', 'Blade', 'jQuery'],
+    role: 'عضو تیم توسعه (Junior) در بک‌اند و فرانت‌اند — اکنون در carexpert.com.au ادغام شده است',
   },
   {
-    name: 'carexpert.com.au/car-chooser',
-    description: 'ابزار انتخاب و مقایسه خودرو',
-    stack: ['Laravel', 'PHP', 'Vue.js'],
+    name: 'leamba.ir',
+    description:
+      'آموزشگاه آنلاین موسیقی',
+    stack: ['Laravel', 'Tailwind CSS'],
+    role: 'پیاده سازی صفحات اصلی وبسایت به صورت ریسپانسیو',
   },
-  { name: 'leamba.ir', description: 'پلتفرم خدمات آنلاین', stack: ['Laravel', 'PHP', 'MySQL'] },
   {
     name: 'Bee Charge',
-    description: 'سرویس مدیریت و شارژ خودروهای برقی',
-    stack: ['Laravel', 'PHP', 'Redis'],
+    description: 'سرویس شارژ سیار خودروهای برقی (اپلیکیشن اندروید)',
+    stack: ['Laravel', 'PHP', 'MySQL'],
+    role: 'Lead Backend Developer با تیم سه نفره — مسئول معماری، توسعه و دیپلوی/مدیریت سرور',
+  },
+  {
+    name: 'fincar.com.au',
+    description: 'محاسبه‌گر و ثبت درخواست Novated Lease برای مشتریان استرالیایی',
+    stack: ['Laravel', 'React'],
+    role: 'عضو تیم بک‌اند؛ یادگیری React برای نگهداری فرانت‌اند پس از خروج توسعه‌دهنده فرانت',
+  },
+  {
+    name: 'bainovaco.com',
+    description: 'وب‌سایت یک شرکت مشاوره و تکنولوژی',
+    stack: ['Express.js', 'React'],
+    role: 'نگهداری و توسعه کد پیشین؛ چندزبانه‌سازی (انگلیسی/ارمنی) و اتصال درگاه پرداخت Idram',
+  },
+  {
+    name: 'Twiva',
+    description: 'پلتفرم اقتصاد کریتورها در آفریقا (اپلیکیشن موبایل)',
+    stack: ['AWS ECS Fargate'],
+    role: 'عضو تیم بک‌اند؛ راه‌اندازی AWS ECS Fargate برای مهاجرت به زیرساخت کانتینری',
+  },
+  {
+    name: 'flitt.it',
+    description: 'پلتفرم حمل‌ونقل آنلاین وسایل حجیم منزل و باغ (اپلیکیشن موبایل)',
+    stack: ['Laravel 13', 'PHP', 'MySQL'],
+    role: 'مالکیت کامل بک‌اند و سرور؛ ارتقای پروژه از Laravel 8 به Laravel 13',
   },
 ]
 </script>
