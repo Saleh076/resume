@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CalendarDays, Code2, Mail, MapPin, Phone, ShieldCheck } from '@lucide/vue'
+import { CalendarDays, Code2, Linkedin, Mail, MapPin, Phone, ShieldCheck } from '@lucide/vue'
 </script>
 
 <template>
@@ -19,8 +19,9 @@ import { CalendarDays, Code2, Mail, MapPin, Phone, ShieldCheck } from '@lucide/v
     <address
       class="grid justify-center gap-3 not-italic text-base leading-none lg:justify-start lg:border-l-2 lg:border-[#08754a] lg:pl-10"
     >
-      <a class="contact" href="mailto:salehdvp@gmail.com"><Mail :size="19" />salehdvp@gmail.com</a
+      <a class="contact" href="mailto:salehdvp@gmail.com"><Mail :size="19" />salehshekari76@gmail.com</a
       ><a class="contact" href="tel:+989109598609"><Phone :size="19" />۰۹۱۰ ۹۵۹ ۸۶۰۹</a
+      ><a class="contact" href="https://linkedin.com/in/saleh-shekari-067192171" target="_blank" rel="noopener noreferrer"><Linkedin :size="19" />linkedin.com/in/saleh-shekari-067192171</a
       ><span class="contact"><MapPin :size="19" />اردبیل</span
       ><span class="contact"><CalendarDays :size="19" />۱۳۷۶/۰۴/۰۱</span
       ><span class="contact"><ShieldCheck :size="19" />پایان خدمت</span>
